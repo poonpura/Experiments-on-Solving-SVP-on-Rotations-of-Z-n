@@ -5,11 +5,11 @@ This repository contains the code and data for the experiments on the effects of
 The code used to implement the different basis generation algorithms (namely discrete gaussian-based sampling, unimodular matrix product sampling, and Bézout-coefficient-based sampling) are given in the file Z^n_sampling.py. The module makes use of NumPy and SageMath as dependencies, and should therefore be used in a SageMath virtual environment. 
 
 The raw data for our experiements is given in the csv files. The naming convention for each column consists of some characters followed by a number:
-t - time taken (in seconds)
-max - largest matrix element
-lsq - shortest squared length of matrix
-1 - generate
-2 - LLL-reduction
+t - time taken (in seconds) \n
+max - largest matrix element \n
+lsq - shortest squared length of matrix \n
+1 - generate \n
+2 - LLL-reduction \n
 k >= 3 - BKZ with block size k (applied successively)
 
 For example, lsq1 is the shortest squared length of the generated matrix, max2 is the largest element of the LLL-reduced matrix and t5 is the time taken to run BKZ with block size 5 on the matrix.
