@@ -2,7 +2,7 @@
 
 This repository contains the code and data for the experiments on the effects of the LLL and BKZ reduction algorithms on differently sampled bases of the integer matrix, as given in Section 6 of our paper "Just how hard are rotations of Z^n? Algorithms and cryptography with the simplest lattice". <insert link to paper>
 
-The code used to implement the different basis generation algorithms (namely discrete gaussian-based sampling, unimodular matrix product sampling, and Bézout-coefficient-based sampling) are given in the file Z^n_sampling.py. The module makes use of NumPy and SageMath as dependencies, and should therefore be used in a SageMath virtual environment. 
+The code used to implement the different basis generation algorithms (namely discrete Gaussian-based sampling, unimodular matrix product sampling, and Bézout-coefficient-based sampling) are given in the file Z^n_sampling.py. The module makes use of NumPy and SageMath as dependencies, and should therefore be used in a SageMath virtual environment. 
 
 The raw data for our experiements is given in the csv files. The naming convention for each column consists of some characters followed by a number: </br>
 t - time taken (in seconds) </br>
