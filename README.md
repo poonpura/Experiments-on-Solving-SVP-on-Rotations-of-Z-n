@@ -9,7 +9,7 @@ t - time taken (in seconds) </br>
 max - largest matrix element </br>
 lsq - shortest squared length of matrix </br>
 1 - generate </br>
-2 - LLL-reduction </br>
+2 - LLL reduction </br>
 k >= 3 - BKZ with block size k (applied successively)
 
 For example, lsq1 is the shortest squared length of the generated matrix, max2 is the largest element of the LLL-reduced matrix and t5 is the time taken to run BKZ with block size 5 on the matrix.
