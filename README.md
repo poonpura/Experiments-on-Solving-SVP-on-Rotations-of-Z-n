@@ -22,4 +22,7 @@ The sampling algorithms used in our experiments are provided in the `Zn_sampling
 >>> zns.discrete_gaussian(3, 3, 10, 10)
 [[-4, -2, 0], [-6, -4, 2], [-1, -2, 4]]
 ```
-To view documentation in shell, simply run ```>>> help(zns)```.
+To view documentation in shell, simply run 
+```
+>>> help(zns)
+```
