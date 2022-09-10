@@ -74,7 +74,8 @@ def unimodular_product(n, B, L, d):
     """
     Samples and returns a n x n basis (in the form of a nested list) using
     the unimodular matrix product algorithm (basis sampling technique 2) given
-    by the paper, where B, L, and d are as specified in the writeup.
+    by the paper, where B is the size bound, L is the word length, and d is the
+    size bound.
 
     Precondition: n, B, L and d are strictly positive integers and 2 <= d <= n.
     """
@@ -97,7 +98,7 @@ def bezout_sampling(n, B):
     """
     Samples and returns a n x n basis (in the form of a nested list) using the
     Bézout-coefficient-based construction (basis sampling technique 3) given by
-    the paper, where B is the size bound as discussed in the writeup.
+    the paper, where B is the size bound.
 
     Precondition: n and B are strictly positive integers.
     """
