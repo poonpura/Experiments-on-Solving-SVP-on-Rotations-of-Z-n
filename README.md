@@ -19,7 +19,7 @@ For example, lsq1 is the shortest squared length of a vector in the generated ma
 The sampling algorithms used in our experiments are provided in the `Zn_sampling.py` file, with documentation for the specific sampling functions provided as docstrings. To make use of them, simply import the file as a module (the import may take a couple of minutes).
 
 ```
->>> from Zn_sampling import *
->>> discrete_gaussian(3, 3, 10, 10)
+>>> import Zn_sampling as zns
+>>> zns.discrete_gaussian(3, 3, 10, 10)
 [[-4, -2, 0], [-6, -4, 2], [-1, -2, 4]]
 ```
