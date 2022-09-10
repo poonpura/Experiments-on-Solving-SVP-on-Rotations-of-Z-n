@@ -20,5 +20,5 @@ The sampling algorithms used in our experiments are provided in the Z^n_sampling
 
 ```
 >>> from Zn_sampling import *
->>> 
+>>> discrete_gaussian(3, 3, 10, 10)
 ```
