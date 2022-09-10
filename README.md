@@ -13,3 +13,12 @@ lsq - shortest squared length of a vector in the matrix </br>
 k >= 3 - BKZ with block size k (applied successively)
 
 For example, lsq1 is the shortest squared length of a vector in the generated matrix, max2 is the largest absolute value of an element of the LLL-reduced matrix, and t5 is the time taken to run BKZ with block size 5 on the matrix.
+
+## How to use sampling algorithms
+
+The sampling algorithms used in our experiments are provided in the Z^n_sampling.py file. To make use of them, simply import the file as a module. The documentation for the sampling functions are provided as docstrings in the file.
+
+```
+>>> from Zn_sampling import *
+>>> 
+```
