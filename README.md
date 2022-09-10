@@ -16,7 +16,7 @@ For example, lsq1 is the shortest squared length of a vector in the generated ma
 
 ## How to use sampling algorithms
 
-The sampling algorithms used in our experiments are provided in the `Zn_sampling.py file`, with specifications of the sampling functions provided as docstrings. To make use of them, simply import the file as a module (the import may take a couple of minutes).
+The sampling algorithms used in our experiments are provided in the `Zn_sampling.py` file, with specifications of the sampling functions provided as docstrings. To make use of them, simply import the file as a module (the import may take a couple of minutes).
 
 ```
 >>> from Zn_sampling import *
