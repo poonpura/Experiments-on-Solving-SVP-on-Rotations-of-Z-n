@@ -1,4 +1,4 @@
-# Sieving in Zn
+# Sieving in $\mathbb{Z}^n$
 
 ## Downloading and Running Original Experiments
 
