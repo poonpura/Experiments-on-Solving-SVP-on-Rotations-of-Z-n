@@ -1,4 +1,4 @@
-# Experiments on Solving SVP on Rotations of Z^n
+# Basis Reduction Experiments
 
 This repository contains the code and data for the experiments on the effects of the LLL and BKZ reduction algorithms on differently sampled bases of the integer matrix, as given in Section 6 of our paper "Just how hard are rotations of Z^n? Algorithms and cryptography with the simplest lattice". <insert link to paper>
 
